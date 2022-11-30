@@ -1,0 +1,10 @@
+.filter-field {
+  display: flex;
+  margin: 20px 0;
+}
+
+.checkbox-group {
+  margin-right: 30px;
+  display: flex;
+  gap: 4px;
+}

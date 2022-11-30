@@ -1,0 +1,67 @@
+.todoList {
+  max-height: 300px;
+  overflow-y: scroll;
+}
+
+.todoList::-webkit-scrollbar {
+  display: none;
+}
+
+.input-field {
+  display: flex;
+}
+
+.input-todo {
+  width: 80%;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 0.5px solid blue;
+}
+
+.input-todo:focus {
+  border: 0.5px solid blue;
+  outline: 0.5px solid blue;
+}
+
+.btn-add {
+  width: 100px;
+  margin-left: 2px;
+  color: #fff;
+  background-color: blue;
+  opacity: 0.6;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-add:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.footer {
+  padding: 20px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-clear {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 38px;
+  color: #fff;
+  background-color: red;
+  opacity: 0.6;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 0;
+}
+
+.btn-clear:hover {
+  opacity: 1;
+  cursor: pointer;
+}

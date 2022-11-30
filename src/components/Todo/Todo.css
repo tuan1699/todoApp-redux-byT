@@ -1,0 +1,44 @@
+.todo-item {
+  padding: 16px 0 16px 10px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  background-color: aliceblue;
+  margin-bottom: 2px;
+  min-height: 72px;
+}
+
+.todo-item:hover {
+  cursor: pointer;
+  background-color: rgb(205, 228, 248);
+}
+
+.todo-item:hover .btn-delete {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin-left: 8px;
+  width: 80%;
+}
+
+.btn-delete {
+  margin-left: auto;
+  display: none;
+  width: 40px;
+  height: 40px;
+  padding: 8px 0;
+  margin-right: 10px;
+  background-color: red;
+  opacity: 0.7;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-delete:hover {
+  cursor: pointer;
+  opacity: 1;
+}
